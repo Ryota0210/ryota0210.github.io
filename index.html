@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ryota|Portfolio</title>
+    <meta name="description" content="Ryota|Portfolio" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- favicon/webclipicon -->
+    <link rel="icon" href="favicon.svg" />
+    <link rel="apple-touch-icon" href="img/webclip.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="Ryota|Portfolio" />
+    <meta property="og:url" content="https://ryota0210.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ryota|Portfolio" />
+    <meta property="og:description" content="This website is Ryota's portfolio site." />
+    <meta property="og:image" content="./img/work03.png" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="This website is Ryota's portfolio site." />
+    <meta name="twitter:image:src" content="./img/work03.png" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/destyle.css">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- js -->
+    <script src="./js/main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js" defer></script>
+</head>
+
+<body>
+    <div class="start-loading"></div>
+    <!-- mouse-stalker -->
+    <div class="mouse-stalker"></div>
+    <!-- header -->
+    <header id="header" class="header">
+        <h1 class="header-logo">
+            <a href="/">Ryota</a>
+        </h1>
+        <div class="drawer-btn">
+            <span class="drawer-line"></span>
+            <span class="drawer-line"></span>
+            <span class="drawer-line"></span>
+        </div>
+        <nav class="drawer-menu">
+            <ul class="drawer-list">
+                <li class="drawer-item"><a href="#">HOME</a></li>
+                <li class="drawer-item"><a href="#about">ABOUT</a></li>
+                <li class="drawer-item"><a href="#skill">SKILL</a></li>
+                <li class="drawer-item"><a href="#work">WORK</a></li>
+                <li class="drawer-item"><a href="#contact">CONTACT</a></li>
+            </ul>
+            <span class="drawer-item-text">THE PORTFOLIO SITE</span>
+        </nav>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <li class="header-item underline"><a href="#about">ABOUT</a></li>
+                <li class="header-item underline"><a href="#skill">SKILL</a></li>
+                <li class="header-item underline"><a href="#work">WORK</a></li>
+                <li class="header-item underline"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header-end -->
+    <!-- main -->
+    <main>
+        <!-- fv -->
+        <div class="fv">
+            <div class="fv-copy">
+                <div class="fv-container-hidden">
+                    <div class="fv-container">
+                        <div class=fv-loading-text-container>
+                            <p class="fv-loading-text">HELLO</p>
+                        </div>
+                        <div class="loading-text01 loading-count">000<span class="loading-p">%</span></div>
+                        <div class="loading-text02 loading-count">025<span class="loading-p">%</span></div>
+                        <div class="loading-text03 loading-count">050<span class="loading-p">%</span></div>
+                        <div class="loading-text04 loading-count">075<span class="loading-p">%</span></div>
+                        <div class="loading-text05 loading-count">100<span class="loading-p">%</span></div>
+                    </div>
+                </div>
+                <div class="fv-copy-container">
+                    <div class="fv-main-copy-container">
+                        <p class="fv-main-copy">Hi! I'm Ryota.</p>
+                    </div>
+                    <div class="fv-main-text-container">
+                        <p class="fv-main-text">I'm a front-end developer.</p>
+                        <p class="fv-main-text">Thank you for visiting my portfolio site.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="fv-liner-text-container">
+                <p class="fv-liner-text-top">
+                    ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓ABOUT↓</p>
+            </div>
+        </div>
+        <!-- about -->
+        <section id="about" class="about">
+            <div class="about-title-container">
+                <h2 class="about-title">ABOUT</h2>
+            </div>
+            <div class="about-content-container">
+                <p class="about-content-title">- Ryota -</p>
+                <p class="about-content">1996年、奈良県生まれ。</p>
+                <p class="about-content">クリエイティブな仕事に興味を持ち、Webデザインとコーディングを学び始めました。
+                    ポケモンとプロ野球が大好きです。好きなものを極めたいという気持ちでコーディング能力もアップしていきたいです。</p>
+                <p class="about-content">
+                    今後のビジョンとしては、デザインカンプの忠実な再現によってデザインを損なわないようにコーディングすること、さらには、アニメーション実装などを中心にスキルの向上を目指していきたいです。将来的にはアワードを受賞することを目標にしています。
+                </p>
+                <a class="about-link" href="https://twitter.com/ryota_web_" target="_blank" rel="noopener noreferrer">
+                    <img class="about-x-logo" src="./img/logo-white.png" alt="" width="2400" height="2453"
+                        decoding="async">
+                </a>
+            </div>
+        </section>
+        <!-- scroll-text -->
+        <div class="scroll-text-container">
+            <div class="scroll-text-top">
+                RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA RYOTA
+            </div>
+            <div class="scroll-text-bottom">
+                PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO PORTFOLIO
+                PORTFOLIO
+            </div>
+        </div>
+        <!-- skill -->
+        <section id="skill" class="skill">
+            <div class="skill-title-container">
+                <h2 class="skill-title">SKILL</h2>
+            </div>
+            <div class="skill-tag-container">
+                <div class="c-tag">
+                    <span>HTML</span>
+                </div>
+                <div class="c-tag">
+                    <span>CSS</span>
+                </div>
+                <div class="c-tag">
+                    <span>SCSS</span>
+                </div>
+                <div class="c-tag">
+                    <span>TailwindCSS</span>
+                </div>
+                <div class="c-tag">
+                    <span>JavaScript</span>
+                </div>
+                <div class="c-tag">
+                    <span>Gsap</span>
+                </div>
+                <div class="c-tag">
+                    <span>Astro</span>
+                </div>
+                <div class="c-tag">
+                    <span>Photoshop</span>
+                </div>
+                <div class="c-tag">
+                    <span>Illustrator</span>
+                </div>
+                <div class="c-tag">
+                    <span>Figma</span>
+                </div>
+                <div class="c-tag">
+                    <span>XD</span>
+                </div>
+                <div class="c-tag">
+                    <span>VScode</span>
+                </div>
+            </div>
+        </section>
+        <!-- work -->
+        <section id="work" class="work">
+            <div class="work-item-container">
+                <div class="work-item">
+                    <h2 class="work-item-title">AI business company website.</h2>
+                    <div class="work-flex">
+                        <div class="work-item-text-container">
+                            <p class="work-item-text">AI事業会社のWebサイト（自主制作）をデザインとコーディングをしました。</p>
+                            <div class="work-tag">
+                                <div class="c-tag work-tag-item">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="c-tag work-tag-item">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="c-tag work-tag-item">
+                                    <span>Gsap</span>
+                                </div>
+                            </div>
+                            <a href="https://ryota0210.github.io/portfolio_01/" target="_blank"
+                                rel="noopener noreferrer" class="c-button work-button work-button-pc">
+                                <div class="c-button-text-container">
+                                    <p class="c-button-text">VIEW SITE</p>
+                                    <span class="dli-arrow-right"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work-img-container">
+                            <img class="work-img" src="./img/work01.png" alt="" width="1440" height="800"
+                                decoding="async">
+                        </div>
+                    </div>
+                    <a href="https://ryota0210.github.io/portfolio_01/" target="_blank" rel="noopener noreferrer"
+                        class="c-button work-button">
+                        <p class="c-button-text">VIEW SITE</p>
+                        <span class="dli-arrow-right"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="work-item-container">
+                <div class="work-item">
+                    <h2 class="work-item-title">production business company website.</h2>
+                    <div class="work-flex">
+                        <div class="work-item-text-container">
+                            <p class="work-item-text">有機野菜生産業者のWebサイト（自主制作）をデザインとコーディングをしました。</p>
+                            <div class="work-tag">
+                                <div class="c-tag work-tag-item">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="c-tag work-tag-item">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="c-tag work-tag-item">
+                                    <span>Gsap</span>
+                                </div>
+                            </div>
+                            <a href="https://ryota0210.github.io/portfolio_02/" target="_blank"
+                                rel="noopener noreferrer" class="c-button work-button work-button-pc">
+                                <div class="c-button-text-container">
+                                    <p class="c-button-text">VIEW SITE</p>
+                                    <span class="dli-arrow-right"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work-img-container">
+                            <img class="work-img" src="./img/work02.png" alt="" width="1440" height="800"
+                                decoding="async">
+                        </div>
+                    </div>
+                    <a href="https://ryota0210.github.io/portfolio_02/" target="_blank" rel="noopener noreferrer"
+                        class="c-button work-button">
+                        <p class="c-button-text">VIEW SITE</p>
+                        <span class="dli-arrow-right"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="work-item-container">
+                <div class="work-item">
+                    <h2 class="work-item-title">My portfolio site.</h2>
+                    <div class="work-flex">
+                        <div class="work-item-text-container">
+                            <p class="work-item-text">ポートフォリオサイトのデザインとコーディングをしました。</p>
+                            <div class="work-tag">
+                                <div class="c-tag work-tag-item">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="c-tag work-tag-item">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="c-tag work-tag-item">
+                                    <span>Gsap</span>
+                                </div>
+                            </div>
+                            <a href="#header" class="c-button work-button work-button-pc">
+                                <div class="c-button-text-container">
+                                    <p class="c-button-text">VIEW SITE</p>
+                                    <span class="dli-arrow-right"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="work-img-container">
+                            <img class="work-img" src="./img/work03.png" alt="" width="1440" height="800"
+                                decoding="async">
+                        </div>
+                    </div>
+                    <a href="#header" class="c-button work-button">
+                        <p class="c-button-text">VIEW SITE</p>
+                        <span class="dli-arrow-right"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- main-end -->
+    <!-- footer -->
+    <footer class="footer">
+        <h2 id="contact" class="contact-title">Contact</h2>
+        <div class="contact-address underline">
+            <a href="mailto:ryota.kk00@gmail.com">ryota.kk00@gmail.com</a>
+        </div>
+        <div class="footer-button underline">
+            <a class="footer-button-text">Back to top ↑</a>
+        </div>
+        <span class="copyright">All Rights Reserved 2024 © Ryota</span>
+    </footer>
+</body>
+
+</html>
